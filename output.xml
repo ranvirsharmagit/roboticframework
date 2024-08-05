@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0.1 (Python 3.11.5 on darwin)" generated="2024-07-28T02:44:30.752830" rpa="false" schemaversion="5">
-<suite id="s1" name="Sfsd" source="/Users/ranvirkumarsharma/PycharmProjects/robotframework/.venv/sfsd.robot">
-<test id="s1-t1" name="loginpage" line="5">
+<robot generator="Robot 7.0.1 (Python 3.11.5 on darwin)" generated="2024-08-06T01:21:45.074296" rpa="false" schemaversion="5">
+<suite id="s1" name="Tc" source="/Users/ranvirkumarsharma/PycharmProjects/robotframework/robot/tc.robot">
+<test id="s1-t1" name="OpenWebsite" line="7">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-07-28T02:44:31.455898" level="INFO">Opening browser 'Chrome' to base url 'https://www.guru99.com/'.</msg>
-<arg>https://www.guru99.com/</arg>
-<arg>Chrome</arg>
+<msg time="2024-08-06T01:21:45.709286" level="INFO">Opening browser 'chrome' to base url 'https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Open%20Browser'.</msg>
+<arg>https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Open%20Browser</arg>
+<arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-07-28T02:44:31.453370" elapsed="16.492029"/>
+<status status="PASS" start="2024-08-06T01:21:45.708944" elapsed="9.284330"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-07-28T02:44:47.952826" elapsed="0.278969"/>
+<status status="PASS" start="2024-08-06T01:21:54.994493" elapsed="0.181452"/>
 </kw>
-<doc>Google test</doc>
-<tag>reggression</tag>
-<status status="PASS" start="2024-07-28T02:44:31.450350" elapsed="16.783857"/>
+<status status="PASS" start="2024-08-06T01:21:45.707782" elapsed="9.468661"/>
 </test>
-<status status="PASS" start="2024-07-28T02:44:30.756828" elapsed="17.481868"/>
+<status status="PASS" start="2024-08-06T01:21:45.077260" elapsed="10.099937"/>
 </suite>
 <statistics>
 <total>
 <stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0" skip="0">reggression</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Sfsd">Sfsd</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tc">Tc</stat>
 </suite>
 </statistics>
 <errors>
