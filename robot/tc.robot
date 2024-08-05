@@ -3,9 +3,12 @@ Library  SeleniumLibrary
 
 *** Variables ***
 
+${url}    https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Open%20Browser
+
+
 *** Test Cases ***
 OpenWebsite
-    open browser    https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Open%20Browser  chrome
+    open browser    ${url}  chrome
     close browser
 
 
