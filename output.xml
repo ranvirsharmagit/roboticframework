@@ -1,73 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0.1 (Python 3.11.5 on darwin)" generated="2024-08-06T03:05:38.393903" rpa="false" schemaversion="5">
-<suite id="s1" name="Inputbox" source="/Users/ranvirkumarsharma/PycharmProjects/robotframework/robot/inputbox.robot">
-<test id="s1-t1" name="testingInputbox" line="8">
+<robot generator="Robot 7.0.1 (Python 3.11.5 on darwin)" generated="2024-08-09T03:33:07.221554" rpa="false" schemaversion="5">
+<suite id="s1" name="Radiobutton" source="/Users/ranvirkumarsharma/PycharmProjects/robotframework/robot/radiobutton.robot">
+<test id="s1-t1" name="testing radiobutton" line="9">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-08-06T03:05:38.579557" level="INFO">Opening browser 'chrome' to base url 'https://www.nseindia.com/'.</msg>
-<arg>https://www.nseindia.com/</arg>
+<msg time="2024-08-09T03:33:07.763241" level="INFO">Opening browser 'chrome' to base url 'http://test.rubywatir.com/radios.php'.</msg>
+<arg>http://test.rubywatir.com/radios.php</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-08-06T03:05:38.579248" elapsed="9.633073"/>
+<status status="PASS" start="2024-08-09T03:33:07.762888" elapsed="3.559606"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2024-08-06T03:05:48.213103" elapsed="0.435625"/>
+<status status="PASS" start="2024-08-09T03:33:11.323978" elapsed="0.358876"/>
 </kw>
-<kw name="Title Should Be" owner="SeleniumLibrary">
-<msg time="2024-08-06T03:05:48.671709" level="INFO">Page title is 'NSE - National Stock Exchange of India Ltd: Live Share/Stock Market News &amp; Updates, Quotes- Nseindia.com'.</msg>
-<arg>NSE - National Stock Exchange of India Ltd: Live Share/Stock Market News &amp; Updates, Quotes- Nseindia.com</arg>
-<doc>Verifies that the current page title equals ``title``.</doc>
-<status status="PASS" start="2024-08-06T03:05:48.649272" elapsed="0.023485"/>
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>1seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2024-08-09T03:33:11.686421" elapsed="0.001525"/>
 </kw>
-<kw name="Set Variable" owner="BuiltIn">
-<msg time="2024-08-06T03:05:48.673806" level="INFO">${"search_text"} = id:header-search-input</msg>
-<var>${"search_text"}</var>
-<arg>id:header-search-input</arg>
-<doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2024-08-06T03:05:48.673457" elapsed="0.000393"/>
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<msg time="2024-08-09T03:33:11.689068" level="INFO">Selecting 'Radio1' from radio button 'likeit'.</msg>
+<arg>likeit</arg>
+<arg>Radio1</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="PASS" start="2024-08-09T03:33:11.688568" elapsed="2.073327"/>
 </kw>
-<kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2024-08-06T03:05:48.706188" level="INFO">Element 'id:header-search-input' is displayed.</msg>
-<arg>${"search_text"}</arg>
-<doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="PASS" start="2024-08-06T03:05:48.674227" elapsed="0.032072"/>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-08-09T03:33:13.763968" level="INFO">Clicking link 'Checkboxes'.</msg>
+<arg>Checkboxes</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-09T03:33:13.762792" elapsed="3.361299"/>
 </kw>
-<kw name="Element Should Be Enabled" owner="SeleniumLibrary">
-<arg>${"search_text"}</arg>
-<doc>Verifies that element identified by ``locator`` is enabled.</doc>
-<status status="PASS" start="2024-08-06T03:05:48.706599" elapsed="0.032383"/>
+<kw name="Unselect Checkbox" owner="SeleniumLibrary">
+<msg time="2024-08-09T03:33:17.125537" level="INFO">Unselecting checkbox 'soccer'.</msg>
+<arg>soccer</arg>
+<doc>Removes the selection of checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-09T03:33:17.124993" elapsed="4.113996"/>
 </kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-08-06T03:05:48.739618" level="INFO">Typing text 'tata Chemical' into text field 'id:header-search-input'.</msg>
-<arg>${"search_text"}</arg>
-<arg>tata Chemical</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-08-06T03:05:48.739294" elapsed="0.230275"/>
+<kw name="Unselect Checkbox" owner="SeleniumLibrary">
+<msg time="2024-08-09T03:33:21.240148" level="INFO">Unselecting checkbox 'basketball'.</msg>
+<arg>basketball</arg>
+<doc>Removes the selection of checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-09T03:33:21.239481" elapsed="4.117201"/>
 </kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2024-08-06T03:05:53.973081" level="INFO">Slept 5 seconds.</msg>
-<arg>5</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-08-06T03:05:48.969898" elapsed="5.003442"/>
+<kw name="Unselect Checkbox" owner="SeleniumLibrary">
+<msg time="2024-08-09T03:33:25.359012" level="INFO">Unselecting checkbox 'golf'.</msg>
+<arg>golf</arg>
+<doc>Removes the selection of checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-09T03:33:25.357763" elapsed="4.097505"/>
 </kw>
-<kw name="Clear Element Text" owner="SeleniumLibrary">
-<arg>${"search_text"}</arg>
-<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
-<status status="PASS" start="2024-08-06T03:05:53.973852" elapsed="0.055240"/>
+<kw name="Unselect Checkbox" owner="SeleniumLibrary">
+<msg time="2024-08-09T03:33:29.456890" level="INFO">Unselecting checkbox 'netball'.</msg>
+<arg>netball</arg>
+<doc>Removes the selection of checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-09T03:33:29.455973" elapsed="4.099009"/>
 </kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2024-08-06T03:05:56.030494" level="INFO">Slept 2 seconds.</msg>
-<arg>2</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-08-06T03:05:54.029626" elapsed="2.001080"/>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2024-08-09T03:33:33.555737" level="INFO">Selecting checkbox 'soccer'.</msg>
+<arg>soccer</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-09T03:33:33.555391" elapsed="4.090365"/>
 </kw>
-<kw name="Close Browser" owner="SeleniumLibrary">
-<doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-08-06T03:05:56.031108" elapsed="0.235693"/>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2024-08-09T03:33:37.646623" level="INFO">Selecting checkbox 'baseball'.</msg>
+<arg>baseball</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-09T03:33:37.646237" elapsed="4.179805"/>
 </kw>
-<status status="PASS" start="2024-08-06T03:05:38.578122" elapsed="17.689865"/>
+<kw name="Unselect Checkbox" owner="SeleniumLibrary">
+<msg time="2024-08-09T03:33:41.826913" level="INFO">Unselecting checkbox 'soccer'.</msg>
+<arg>soccer</arg>
+<doc>Removes the selection of checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-09T03:33:41.826527" elapsed="4.106857"/>
+</kw>
+<status status="PASS" start="2024-08-09T03:33:07.761371" elapsed="38.172649"/>
 </test>
-<status status="PASS" start="2024-08-06T03:05:38.397044" elapsed="17.872243"/>
+<status status="PASS" start="2024-08-09T03:33:07.224357" elapsed="38.710839"/>
 </suite>
 <statistics>
 <total>
@@ -76,7 +84,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Inputbox">Inputbox</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Radiobutton">Radiobutton</stat>
 </suite>
 </statistics>
 <errors>
