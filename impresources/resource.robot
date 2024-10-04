@@ -3,7 +3,7 @@ Library     SeleniumLibrary
 Library     OpenpyxlLibrary
 
 *** Variables ***
-$(url) = https://rahulshettyacademy.com/AutomationPractice/
+${url}  https://rahulshettyacademy.com/AutomationPractice/
 
 *** Test Cases ***
 find link available on page
