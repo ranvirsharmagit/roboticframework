@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0.1 (Python 3.11.5 on darwin)" generated="2024-10-05T03:06:39.158869" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0.1 (Python 3.11.5 on darwin)" generated="2024-10-05T13:11:59.183888" rpa="false" schemaversion="5">
 <suite id="s1" name="Resource" source="/Users/ranvirkumarsharma/PycharmProjects/robotframework/impresources/resource.robot">
-<test id="s1-t1" name="find link available on page" line="9">
+<test id="s1-t1" name="find link available on page" line="10">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-10-05T03:06:39.711878" level="INFO">Opening browser 'chrome' to base url 'http://test.rubywatir.com/radios.php'.</msg>
+<msg time="2024-10-05T13:11:59.845586" level="INFO">Opening browser 'chrome' to base url 'http://test.rubywatir.com/radios.php'.</msg>
 <arg>http://test.rubywatir.com/radios.php</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-10-05T03:06:39.711560" elapsed="4.678459"/>
+<status status="PASS" start="2024-10-05T13:11:59.845277" elapsed="10.667515"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2024-10-05T03:06:44.392617" elapsed="0.334246"/>
+<status status="PASS" start="2024-10-05T13:12:10.514737" elapsed="0.345287"/>
 </kw>
 <kw name="Get All Links" owner="SeleniumLibrary">
 <doc>Returns a list containing ids of all links found in current page.</doc>
-<status status="PASS" start="2024-10-05T03:06:44.727291" elapsed="0.124555"/>
+<status status="PASS" start="2024-10-05T13:12:10.860710" elapsed="0.100698"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-10-05T03:06:44.852154" elapsed="0.174285"/>
+<status status="PASS" start="2024-10-05T13:12:10.961743" elapsed="0.190396"/>
 </kw>
-<status status="PASS" start="2024-10-05T03:06:39.710255" elapsed="5.316850"/>
+<status status="PASS" start="2024-10-05T13:11:59.841392" elapsed="11.311290"/>
 </test>
-<test id="s1-t2" name="select the drop down" line="14">
+<test id="s1-t2" name="select the drop down" line="15">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-10-05T03:06:45.029418" level="INFO">Opening browser 'chrome' to base url 'https://rahulshettyacademy.com/AutomationPractice/'.</msg>
+<msg time="2024-10-05T13:12:11.155928" level="INFO">Opening browser 'chrome' to base url 'https://rahulshettyacademy.com/AutomationPractice/'.</msg>
 <arg>https://rahulshettyacademy.com/AutomationPractice/</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-10-05T03:06:45.028789" elapsed="9.110681"/>
+<status status="PASS" start="2024-10-05T13:12:11.155015" elapsed="11.543760"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2024-10-05T03:06:54.147580" elapsed="0.592501"/>
+<status status="PASS" start="2024-10-05T13:12:22.699834" elapsed="0.362525"/>
 </kw>
 <kw name="Select From List By Label" owner="SeleniumLibrary">
-<msg time="2024-10-05T03:06:54.744749" level="INFO">Selecting options from selection list 'dropdown-class-example' by label Option2.</msg>
+<msg time="2024-10-05T13:12:23.064476" level="INFO">Selecting options from selection list 'dropdown-class-example' by label Option2.</msg>
 <arg>dropdown-class-example</arg>
 <arg>Option2</arg>
 <doc>Selects options from selection list ``locator`` by ``labels``.</doc>
-<status status="PASS" start="2024-10-05T03:06:54.742065" elapsed="0.120295"/>
+<status status="PASS" start="2024-10-05T13:12:23.062936" elapsed="0.131933"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-10-05T03:06:57.865565" level="INFO">Slept 3 seconds.</msg>
+<msg time="2024-10-05T13:12:26.199303" level="INFO">Slept 3 seconds.</msg>
 <arg>3</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-10-05T03:06:54.862849" elapsed="3.002952"/>
+<status status="PASS" start="2024-10-05T13:12:23.195502" elapsed="3.003997"/>
 </kw>
 <kw name="Select From List By Index" owner="SeleniumLibrary">
-<msg time="2024-10-05T03:06:57.867449" level="INFO">Selecting options from selection list 'dropdown-class-example' by index 1.</msg>
+<msg time="2024-10-05T13:12:26.200636" level="INFO">Selecting options from selection list 'dropdown-class-example' by index 1.</msg>
 <arg>dropdown-class-example</arg>
 <arg>1</arg>
 <doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
-<status status="PASS" start="2024-10-05T03:06:57.866503" elapsed="0.104864"/>
+<status status="PASS" start="2024-10-05T13:12:26.200029" elapsed="1.697558"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-10-05T03:07:00.972065" level="INFO">Slept 3 seconds.</msg>
+<msg time="2024-10-05T13:12:30.899214" level="INFO">Slept 3 seconds.</msg>
 <arg>3</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-10-05T03:06:57.971629" elapsed="3.000710"/>
+<status status="PASS" start="2024-10-05T13:12:27.897844" elapsed="3.001671"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-10-05T03:07:00.973145" elapsed="0.247793"/>
+<status status="PASS" start="2024-10-05T13:12:30.900277" elapsed="0.230447"/>
 </kw>
-<status status="PASS" start="2024-10-05T03:06:45.027775" elapsed="16.193833"/>
+<status status="PASS" start="2024-10-05T13:12:11.153166" elapsed="19.978338"/>
 </test>
-<status status="PASS" start="2024-10-05T03:06:39.162764" elapsed="22.059659"/>
+<status status="PASS" start="2024-10-05T13:11:59.189381" elapsed="31.944141"/>
 </suite>
 <statistics>
 <total>
@@ -80,15 +80,14 @@
 </suite>
 </statistics>
 <errors>
-<msg time="2024-10-05T03:06:39.163044" level="ERROR">Error in file '/Users/ranvirkumarsharma/PycharmProjects/robotframework/impresources/resource.robot' on line 6: Setting variable '$(url) = https://rahulshettyacademy.com/AutomationPractice/' failed: Invalid variable name '$(url) = https://rahulshettyacademy.com/AutomationPractice/'.</msg>
-<msg time="2024-10-05T03:06:39.709561" level="ERROR">Error in file '/Users/ranvirkumarsharma/PycharmProjects/robotframework/impresources/resource.robot' on line 3: Importing library 'OpenpyxlLibrary' failed: ModuleNotFoundError: No module named 'OpenpyxlLibrary'
+<msg time="2024-10-05T13:11:59.838882" level="ERROR">Error in file '/Users/ranvirkumarsharma/PycharmProjects/robotframework/impresources/resource.robot' on line 3: Importing library 'Ope' failed: ModuleNotFoundError: No module named 'Ope'
 Traceback (most recent call last):
   None
 PYTHONPATH:
-  /Users/ranvirkumarsharma/PycharmProjects/robotframework/.venv/bin
+  /Library/Frameworks/Python.framework/Versions/3.11/bin
   /Library/Frameworks/Python.framework/Versions/3.11/lib/python311.zip
   /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11
   /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload
-  /Users/ranvirkumarsharma/PycharmProjects/robotframework/.venv/lib/python3.11/site-packages</msg>
+  /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages</msg>
 </errors>
 </robot>

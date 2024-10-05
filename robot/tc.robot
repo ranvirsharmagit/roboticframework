@@ -1,6 +1,5 @@
 *** Settings ***
-Library  SeleniumLibrary
-
+SeleniumLibrary
 *** Variables ***
 
 ${url}    https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Open%20Browser

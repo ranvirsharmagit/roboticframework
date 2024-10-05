@@ -1,6 +1,7 @@
 *** Settings ***
 Library     SeleniumLibrary
-Library     OpenpyxlLibrary
+Library     Ope
+Library    SeleniumLibrary
 
 *** Variables ***
 ${url}  https://rahulshettyacademy.com/AutomationPractice/
@@ -19,5 +20,6 @@ select the drop down
     Select From List By Index   dropdown-class-example  1
     sleep   3
     close browser
+
 *** Keywords ***
 
